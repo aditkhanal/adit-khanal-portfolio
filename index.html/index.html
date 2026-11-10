@@ -42,6 +42,7 @@ section{padding:96px 0}
 .head h2{font-size:clamp(2rem,4.2vw,3.2rem);margin:12px 0 14px}
 .head p{color:var(--mute)}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+#work .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:linear-gradient(180deg,rgba(14,20,52,.6),rgba(7,9,22,.8));transition:transform .3s,border-color .3s,box-shadow .3s}
 .card:hover{transform:translateY(-4px);border-color:rgba(34,211,238,.45);box-shadow:0 24px 50px -28px rgba(34,211,238,.45)}
 .card .shot{overflow:hidden;aspect-ratio:16/10;border-bottom:1px solid var(--line)}
@@ -120,8 +121,8 @@ footer a:hover{color:var(--ink)}
  <div class="wrap">
   <div class="head">
    <p class="label">Selected work</p>
-   <h2>Three demo websites, built to show what I can do.</h2>
-   <p>These are portfolio demos and concepts, not commissioned client projects. Each one is live and can be explored.</p>
+   <h2>Selected projects &amp; website concepts.</h2>
+   <p>Three website demos and one original storefront, built to showcase my design and development work. Each project is live and can be explored.</p>
   </div>
   <div class="grid">
    <a class="card" href="https://aditkhanal.github.io/saffron-stone-demo/" target="_blank" rel="noopener noreferrer" aria-label="Saffron &amp; Stone, restaurant website demo (opens in a new tab)">
@@ -140,6 +141,12 @@ footer a:hover{color:var(--ink)}
     <div class="shot"><img src="images/evermore.webp" width="1366" height="768" loading="lazy" alt="EVERMORE wedding and event venue website homepage showing a ballroom"></div>
     <div class="body"><span class="cat">Wedding &amp; Event Venue Website</span><h3>EVERMORE</h3>
      <p>An elegant fictional wedding and event venue website concept featuring event photography, venue details, and packages.</p>
+     <span class="go">View Live Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></span></div>
+   </a>
+   <a class="card" href="https://aditrobux.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="AditRobux, gaming storefront (opens in a new tab)">
+    <div class="shot"><img src="images/aditrobux.webp" width="1366" height="768" loading="lazy" alt="AditRobux gaming storefront homepage"></div>
+    <div class="body"><span class="cat">E-commerce / Gaming Storefront</span><h3>AditRobux</h3>
+     <p>A Robux storefront for the Nepali market, featuring NPR pricing, package availability, community information, announcements, and an admin management system.</p>
      <span class="go">View Live Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></span></div>
    </a>
   </div>
